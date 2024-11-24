@@ -1,0 +1,47 @@
+header {
+  background-color: black;
+  height: 60px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; /* Para separar el logo y los botones */
+  align-items: center; /* Para centrar los elementos verticalmente */
+  padding: 0 40px; /* Añade un padding lateral */
+}
+
+.header-logo {
+  width: 130px;
+  height: 50px;
+}
+
+.auth-buttons {
+  display: flex;
+  gap: 10px; /* Espacio entre los botones */
+}
+
+.login-button,
+.sign-up-button,
+.logout-button {
+  color: white;
+  height: 40px;
+  width: 100px;
+  background-color: black;
+  border: 1px solid white;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: transform 0.3s ease; /* Transición suave para el efecto de hover */
+}
+
+.sign-up-button {
+  border: none; /* Elimina el borde del botón de sign-up */
+}
+
+.login-button:hover,
+.sign-up-button:hover,
+.logout-button:hover {
+  transform: scale(1.1); /* Aumenta el tamaño al pasar el cursor */
+}

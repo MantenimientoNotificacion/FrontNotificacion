@@ -1,0 +1,12 @@
+.send-notification{
+  display: flex;
+  margin-top: 60px;
+}
+
+.users-list, .notification-details{
+  flex: 1;
+}
+
+.notification-details{
+  background-color:  #dedede;
+}

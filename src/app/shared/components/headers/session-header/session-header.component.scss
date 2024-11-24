@@ -1,0 +1,30 @@
+header {
+  background-color: black;
+  height: 60px;
+  box-sizing: border-box;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
+.header-logo {
+  margin-top: 5px;
+  margin-left: 40px;
+  width: 130px;
+  height: 50px;
+  cursor: pointer; /* Agrega un cursor pointer para indicar que es interactivo */
+}
+
+.user-button {
+  position: absolute; /* Cambiado a absolute para posicionamiento independiente */
+  top: 5px;
+  right: 40px; /* Posicionamiento ajustado para la esquina derecha */
+  border: none;
+  background: none;
+  cursor: pointer;
+}
+
+.user-button img {
+  width: 55px;
+  height: 50px;
+}

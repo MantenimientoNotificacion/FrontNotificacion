@@ -1,0 +1,84 @@
+.top-buttons-container{
+    width: 100%;
+    height: 50px;
+    margin-top: 60px;
+    border-bottom: 1px solid black;
+}
+.new-notification-button{
+  margin-top: 4px;
+  height: 40px;
+  width: 220px;
+  margin-left: 20px;
+  background-color: black;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+.Generetor-report{
+  margin-top: 4px;
+  height: 40px;
+  width: 220px;
+  margin-left: 20px;
+  background-color: black;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  color: white;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  cursor: pointer;
+}
+.Delete-all-button{
+    margin-top: 4px;
+  height: 40px;
+  width: 220px;
+  margin-left: 20px;
+  border: none;
+  background-color: white;
+  display: inline-flex;
+  align-items: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.report{
+  height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+.new-notification-icon{
+    height: 25px;
+    width: 25px;
+    margin-right: 20px;
+    margin-left: 10px;
+    margin-top: 2px;
+}
+
+.trash-icon{
+    height: 25px;
+    width: 25px;
+    margin-right: 5px;
+    margin-left: 20px;
+    margin-top: 2px;
+}
+
+.Delete-all-button{
+    margin-left: 20px;
+}

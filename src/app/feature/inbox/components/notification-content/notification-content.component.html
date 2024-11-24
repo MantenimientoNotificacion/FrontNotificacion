@@ -1,0 +1,14 @@
+<div *ngIf="notificacion" class="notification-details-container">
+  <h1>{{ notificacion.titulo }}</h1>
+  <p>Autor: {{ notificacion.autor.correoElectronico }}</p>
+  <p>Fecha de Creación: {{ notificacion.fechaCreacion | date:'medium' }}</p>
+  <p>Destinatarios:</p>
+  <ul>
+    <li *ngFor="let destinatario of notificacion.destinatario">{{ destinatario }}</li>
+  </ul>
+  <p>{{ notificacion.contenido }}</p>
+</div>
+
+<div *ngIf="!notificacion">
+  <p>No se encontró la notificación.</p>
+</div>

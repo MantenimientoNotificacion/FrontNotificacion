@@ -1,0 +1,108 @@
+:host {
+  display: block;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.login-background{
+  position: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.form{
+  top: 150px;
+  left: 550px;
+  position: absolute;
+  background-color: white;
+  border: 2px solid #080808;
+  border-color: black;
+  height: 550px;
+  width: 450px;
+  text-indent: 50px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+h2{
+  margin-top: 50px;
+  margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #333;
+  font-size: 1rem;
+  font-family: 'Open Sans', sans-serif;
+  margin-top: 50px;
+}
+
+button{
+  position: inherit;
+  margin-top: 30px;
+  background-color: white;
+  width: 355px;
+  height: 40px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.redirect-to-register{
+  text-indent: 130px;
+  margin-top: 1px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+input::placeholder {
+  color: #aaa;
+  font-style: 'Open Sans', sans-serif;
+  opacity: 1;
+  font-size: large;
+  text-indent: 20px;
+}
+
+.correo{
+  background-color: black;
+  width: 350px;
+  height: 40px;
+  color: white;
+  font-size: 17px;
+  text-indent: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.password{
+  background-color: black;
+  width: 350px;
+  height: 40px;
+  color: white;
+  font-size: 17px;
+  text-indent: 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+

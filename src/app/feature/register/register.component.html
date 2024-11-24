@@ -1,0 +1,43 @@
+<app-general-header></app-general-header>
+<body>
+  <img src="assets/Mesa de trabajo 1.png" alt="background" class="login-background">
+  <form class="form" (submit)="register()">
+    <h2>Regístrate</h2>
+    <div class="contenedor-formulario">
+      <div class="grupo-izquierda">
+        <label for="input-izquierda1">Primer nombre</label>
+        <input type="text" id="input-izquierda1" class="primer-nombre" placeholder="Escribe tu primer nombre" required
+               [(ngModel)]="userData.primerNombre" name="primerNombre">
+        <label for="input-izquierda2">Primer apellido</label>
+        <input type="text" id="input-izquierda2" class="primer-apellido" placeholder="Escribe tu segundo apellido" required
+               [(ngModel)]="userData.primerApellido" name="primerApellido">
+      </div>
+      <div class="grupo-derecha">
+        <label for="input-derecha1" id="segundo-nombre-text">Segundo nombre</label>
+        <input type="text" id="input-derecha1" class="Segundo-nombre" placeholder="Escribe tu segundo nombre"
+               [(ngModel)]="userData.segundoNombre" name="segundoNombre">
+        <label for="input-derecha2" id="segundo-apellido-text">Segundo apellido</label>
+        <input type="text" id="input-derecha2" class="segundo-apellido" placeholder="Escribe tu segundo apellido"
+               [(ngModel)]="userData.segundoApellido" name="segundoApellido">
+      </div>
+    </div>
+    <div class="contenedor-2">
+      <div class="grupo-intermedio">
+        <label id="correo">Correo electrónico</label>
+        <input type="email" id="intermedio" class="email" placeholder="Escribe tu correo" required
+               [(ngModel)]="userData.correoElectronico" name="correoElectronico">
+      </div>
+    </div>
+    <div class="contenedor-3">
+      <div class="grupo-izquierda-contenedor-3">
+        <label id="password">Contraseña</label>
+        <input type="password" id="password" class="password" placeholder="Escribe una contraseña" required
+               [(ngModel)]="userData.password" name="password">
+      </div>
+      <div>
+        <button type="submit">Aceptar</button>
+      </div>
+    </div>
+  </form>
+</body>
+<app-footer></app-footer>

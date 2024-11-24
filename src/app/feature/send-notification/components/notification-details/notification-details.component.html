@@ -1,0 +1,14 @@
+<div class="box-container">
+  <form class="box-form-container">
+    <div>
+      <input type="text" id="input-izquierda1" class="notification-tittle" placeholder="Ingresa el titulo" required>
+    </div>
+    <div class="message-box">
+      <textarea [value]="notificationContent" (input)="onInput($event)" rows="10" cols="50" placeholder="Contenido"></textarea>
+    </div>
+    <div>
+      <button class="box-button-1">Programar</button>
+      <button class="box-button-2">Enviar</button>
+    </div>
+  </form>
+</div>

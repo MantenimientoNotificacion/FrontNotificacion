@@ -1,0 +1,12 @@
+<header>
+  <img src="assets/TES LOGO.png" alt="Logo" class="header-logo">
+  <div class="auth-buttons">
+    <ng-container *ngIf="isLoggedIn(); else showLoginButtons">
+      <button class="logout-button" (click)="logout()">Logout</button>
+    </ng-container>
+    <ng-template #showLoginButtons>
+      <button class="sign-up-button" (click)="redirectToRegister()">Sign Up</button>
+      <button class="login-button" (click)="redirectToLogin()">Log In</button>
+    </ng-template>
+  </div>
+</header>

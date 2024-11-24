@@ -1,0 +1,17 @@
+<div class="notification-list-container">
+  <h1>Notificaciones</h1>
+  <div *ngFor="let notificacion of notificaciones" class="user-item" (click)="verNotificacion(notificacion)">
+    <img src="assets/inbox notificacion.png" alt="User Icon">
+    <div class="notification-details">
+      <h3>{{ notificacion.titulo }}</h3>
+      <p>{{ notificacion.autor.correoElectronico }}</p>
+      <p>{{ notificacion.fechaCreacion | date:'short' }}</p>
+    </div>
+    <button class="view-notification" (click)="verNotificacion(notificacion)">
+      Ver
+    </button>
+  </div>
+  <div *ngIf="notificaciones.length === 0" class="user-item">
+    <p>No hay notificaciones.</p>
+  </div>
+</div>
