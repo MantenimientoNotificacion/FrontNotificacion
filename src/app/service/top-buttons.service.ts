@@ -6,14 +6,18 @@ import { inject } from '@angular/core';
   providedIn: 'root'
 })
 export class TopButtonsService {
-  private httpClient = inject(HttpClient);
+  //private httpClient = inject(HttpClient);
 
-  constructor() { 
+  constructor(private httpClient : HttpClient) { 
     
   }
 
   reporte(){
-    console.log (this.httpClient.get<any>('localhost:8080/v1/reporte/gen'));
+    console.log (this.httpClient.get<string>('http://localhost:8080/v1/reporte/gen').subscribe(
+      _ => {
+        console.log(_)
+      },error => {console.log(error)}
+    ));
     
 
   }
